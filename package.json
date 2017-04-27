@@ -1,0 +1,28 @@
+{
+  "name": "es6-tdd-kit",
+  "version": "1.0.0",
+  "description": "Easy JavaScript TDD starter kit",
+  "main": "index.js",
+  "scripts": {
+    "tdd": "mocha --watch --require babel-register",
+    "test": "mocha --require babel-register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stremann/es6-tdd-kit.git"
+  },
+  "author": "Roman Stremedlovskyi <stremann@yahoo.com> (https://github.com/stremann)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stremann/es6-tdd-kit/issues"
+  },
+  "homepage": "https://github.com/stremann/es6-tdd-kit#readme",
+  "devDependencies": {
+    "babel-preset-env": "^1.4.0",
+    "babel-register": "^6.24.1",
+    "chai": "^3.5.0",
+    "mocha": "^3.3.0",
+    "sinon": "^2.1.0",
+    "sinon-chai": "^2.9.0"
+  }
+}
